@@ -1,6 +1,6 @@
 import './Dashboard.css';
 import {useEffect, useState} from "react";
-import {fetchDashboardData} from "../../Service/Dashboard.js";
+import {fetchDashboardData} from "../../service/Dashboard.js";
 import toast from "react-hot-toast";
 
 const Dashboard = () => {
