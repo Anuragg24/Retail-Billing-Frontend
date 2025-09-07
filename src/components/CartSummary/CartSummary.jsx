@@ -4,7 +4,7 @@ import ReceiptPopup from '../ReceiptPopup/ReceiptPopup';
 import toast from "react-hot-toast";
 import {createRazorpayOrder, verifyPayment} from "../../service/PaymentService.js";
 import { createOrder, deleteOrder } from '../../service/OrderService.js';
-import { AppConstants } from '../../util/appConstants.js';
+import { AppConstants } from '../../util/AppConstants.js';
 
 const CartSummary = ({customerName,mobileNumber,setMobileNumber,setCustomerName}) => {
   const {cartItems,clearCart} =useContext(AppContext);
